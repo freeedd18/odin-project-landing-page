@@ -23,17 +23,17 @@ a {
     color: white;
     margin: 0px;
     padding: 0px 150px;
-    flex: 1;
     display: flex;
     flex-direction: column;
-    /* justify-content: stretch; */
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     margin-bottom: 100px;
+    gap: 50px;
 }
+
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
@@ -45,6 +45,7 @@ a {
     display: flex;
     gap: 30px;
     align-items: center;
+    min-width: 0px;
 }
 
 .hero {
@@ -87,6 +88,7 @@ img.placeholder {
     object-fit: cover;
     height: 260px;
     width: 390px;
+    /* min-width: 0px; */
     border-radius: 10px;
 }
 
@@ -140,6 +142,7 @@ img.icon {
     font-style: italic;
     text-align: left;
     margin-bottom: 20px;
+    font-weight: 150;
 }
 
 .cit {
