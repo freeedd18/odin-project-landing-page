@@ -45,7 +45,6 @@ a {
     display: flex;
     gap: 30px;
     align-items: center;
-    min-width: 0px;
 }
 
 .hero {
@@ -182,6 +181,11 @@ button.signup.section-four {
     padding: 5px 20px;
     margin: 0px;
     /* flex-basis: 100%; */
-
 }
 
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 30px;
+}
