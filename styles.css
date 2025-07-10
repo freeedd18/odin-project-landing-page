@@ -122,3 +122,26 @@ img.icon {
     border-radius: 10px;
     border: 3px solid #3882F6;
 }
+
+/* section 3 */
+
+.section-three {
+    background-color: #E5E7EB;    
+    padding: 50px 150px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* gap: 10px; */
+    /* align-items: center; */
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.cit {
+    font-weight: 900;
+    text-align: right;
+}
