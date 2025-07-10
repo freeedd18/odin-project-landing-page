@@ -26,7 +26,7 @@ a {
     flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: stretch;
+    /* justify-content: stretch; */
 }
 
 .header {
@@ -68,13 +68,13 @@ a {
     margin-bottom: 10px;
 }
 
-.text {
+.text-secone {
     font-size: 18px;
     color: #E5E7EB;
     margin-bottom: 10px; /*same margin as .h1, but due to the text size difference it appears smaller*/
 }
 
-button.signup {
+button.signup.sec-one {
     background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 7px;
@@ -87,6 +87,7 @@ img.placeholder {
     object-fit: cover;
     height: 260px;
     width: 390px;
+    border-radius: 10px;
 }
 
 /* section 2 */
@@ -145,3 +146,39 @@ img.icon {
     font-weight: 900;
     text-align: right;
 }
+
+/* section 4 */
+
+.section-four {
+    box-sizing: content-box;
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: #F9FAF8;
+    margin: 70px;
+    padding: 20px 80px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h4 {
+    font-weight: 900;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.text-secfour {
+    font-size: 18px;
+}
+
+button.signup.section-four {
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+    border-radius: 7px;
+    padding: 5px 20px;
+    margin: 0px;
+    /* flex-basis: 100%; */
+
+}
+
